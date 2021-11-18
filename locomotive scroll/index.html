@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs And Monkeys</title>
+    <link rel="stylesheet" href="locomotive.css" />
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div data-scroll-container>
+        <div class="section right">
+            <div class="content">
+                <div class="content-title">İt's Dogs</div>
+                <div class="content-desc">Dogs live in almost all parts of the world, both domestic and wild. They are classified as carnivorous mammals with their keen sense of smell and hearing. They are also famous for their loyalty to their owner. Although their lifespan varies according to many factors, they are between 15 and 20 years.</div>
+            </div>
+            <img class="left" data-scroll data-scroll-speed="3" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgreatergood.berkeley.edu%2Farticle%2Fitem%2Fthe_science_backed_benefits_of_being_a_dog_owner&psig=AOvVaw18g5JJO3uS4MAyHaaHqoBK&ust=1637316622843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDPvPHVofQCFQAAAAAdAAAAABAJ" alt="image" />
+            <img class="left second" data-scroll data-scroll-speed="6" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Fscience%2F2019%2Fjun%2F17%2Fhow-dogs-capture-your-heart-evolution-puppy-dog-eyes&psig=AOvVaw18g5JJO3uS4MAyHaaHqoBK&ust=1637316622843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDPvPHVofQCFQAAAAAdAAAAABAD" alt="image" />
+        </div>
+        <div class="section left">
+            <div class="content">
+                <div class="content-title">İt's Monkeys.</div>
+                <div class="content-desc">Detailed Information About Monkeys. Monkeys General name given to a group of mammals (Primates). Except for a few ground-dwelling species, such as the baboon, they all live in trees. ... They are studied in two groups: Old World monkeys in Asia and Africa, and New World monkeys in Central and South America.</div>
+            </div>
+            <img class="right" data-scroll data-scroll-speed="3" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.npr.org%2Fsections%2Fthetwo-way%2F2017%2F09%2F12%2F550417823%2F-animal-rights-advocates-photographer-compromise-over-ownership-of-monkey-selfie&psig=AOvVaw0J7NSoIo3G5SyMA7da3kT1&ust=1637316571156000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMj7m9fVofQCFQAAAAAdAAAAABAD" alt="image" />
+            <img class="right second" data-scroll data-scroll-speed="5" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usatoday.com%2Fin-depth%2Fnews%2F2021%2F10%2F05%2Fwidespread-sickness-arizona-monkey-colony-could-bias-research%2F8372074002%2F&psig=AOvVaw0J7NSoIo3G5SyMA7da3kT1&ust=1637316571156000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMj7m9fVofQCFQAAAAAdAAAAABAJ" alt="image" />
+        </div>
+    </div>
+
+    <script src="locomotive-scroll.min.js"></script>
+    <script>
+        var scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+    </script>
+</body>
+</html>
